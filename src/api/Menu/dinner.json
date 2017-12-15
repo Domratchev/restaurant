@@ -1,0 +1,112 @@
+{
+    "name": "Dinner",
+    "description": "Enjoy your dinner",
+    "sections": [
+        {
+            "name": "Antipasti",
+            "description": "Something to start with",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Olives",
+                    "description": "Marinated black & green olives with crostini",
+                    "price": 6.95,
+                    "isVegeterian": true
+                },
+                {
+                    "id": 2,
+                    "name": "Calamari Fritti",
+                    "description": "Crispy fried calamari with lemon caper aioli",
+                    "price": 14.25
+                },
+                {
+                    "id": 3,
+                    "name": "Calamari Griglia alla Puttanesca",
+                    "description": "Grilled calamari, tomatoes, black olives, capers, lemon, olive oil",
+                    "price": 14.50
+                },
+                {
+                    "id": 4,
+                    "name": "Eggplant Parmigiana",
+                    "description": "Breaded eggplant, bocconcini, zesty tomato sugo, topped with basil & frizzled onions",
+                    "price": 11.25
+                },
+                {
+                    "id": 5,
+                    "name": "Bruschetta Pomodoro",
+                    "description": "Olive oil, garlic, tomatoes, basil",
+                    "price": 9.15,
+                    "isVegeterian": true
+                },
+                {
+                    "id": 6,
+                    "name": "Meatball Appetizer",
+                    "description": "Three house-made, wood-oven baked, beef & ricotta meatballs with pomodoro sauce, whipped ricotta, basil oil, basil shoots, grilled bread",
+                    "price": 14.25
+                },
+                {
+                    "id": 7,
+                    "name": "Mussels",
+                    "description": "Fresh mussels in a spicy tomato broth",
+                    "price": 14.25
+                },
+                {
+                    "id": 8,
+                    "name": "Antipasto Plate",
+                    "description": "Prosciutto, spicy salami, marinated olives, pickled button mushrooms, asiago & grana padano cheese, crostini, olive oil",
+                    "price": 19.25
+                }
+            ]
+        },
+        {
+            "name": "Insalate",
+            "description": "No-regrets salads",
+            "items": [
+                {
+                    "id": 11,
+                    "name": "Insalata Roma",
+                    "description": "Mixed greens, chèvre, toasted walnuts, sweety drop peppers, balsamic vinaigrette",
+                    "price": 9.25,
+                    "isVegeterian": true
+                },
+                {
+                    "id": 12,
+                    "name": "Insalata Caprese",
+                    "description": "Fresh mozzarella, tomatoes, fresh basil",
+                    "price": 13.95
+                },
+                {
+                    "id": 13,
+                    "name": "Insalata Cesare",
+                    "description": "Crisp romaine, creamy caesar dressing, parmesan, croutons",
+                    "price": 8.25,
+                    "isVegeterian": true
+                }
+            ]
+        },
+        {
+            "name": "Pizzas",
+            "description": "Our favorite",
+            "items": [
+                {
+                    "id": 21,
+                    "name": "Pizza Prosciutto",
+                    "description": "Pomodoro sauce, mozzarella, prosciutto di San Daniele, artichoke hearts, roasted red peppers, black olives",
+                    "price": 18.25
+                },
+                {
+                    "id": 22,
+                    "name": "Pizza Salsiccia Italiana",
+                    "description": "Pomodoro sauce, mozzarella, house made sausage, caramelized onions, roasted red pepper",
+                    "price": 18.25
+                },
+                {
+                    "id": 23,
+                    "name": "Pizza Melanzane",
+                    "description": "Pomodoro sauce, fresh mozzarella, sautéed spinach, eggplant, oven roasted tomatoes, ricotta",
+                    "price": 16.95
+                }
+            ]
+        }
+    ]
+}

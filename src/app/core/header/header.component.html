@@ -1,0 +1,29 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" [routerLink]="['home']"><img src="/assets/images/logo.png" class="logo" alt="Logo"></a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['home']"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['about']"><i class="fa fa-info-circle" aria-hidden="true"></i>About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarMenu">
+                        <a class="dropdown-item" href="#">Dinner</a>
+                        <a class="dropdown-item" href="#">Lunch</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Wine List</a>
+                    </div>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['contact']">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

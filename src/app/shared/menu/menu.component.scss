@@ -1,0 +1,9 @@
+.loading {
+    text-transform: capitalize;
+}
+
+.badge {
+    &.vegeterian {
+        color: forestgreen;
+    }
+}

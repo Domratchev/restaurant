@@ -1,0 +1,25 @@
+<div class="menu" *ngIf="menu | async; let menu; else loading">
+    <h2>{{menu.name}}</h2>
+    <p>{{menu.description}}</p>
+    <div class="list-group">
+        <section *ngFor="let section of menu.sections" class="list-group-item flex-column align-items-start">
+            <h3>{{section.name}}</h3>
+            <p>{{section.description}}</p>
+            <ul class="list-group">
+                <li *ngFor="let item of section.items" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h4>{{item.name}}</h4>
+                        <p>
+                            <span *ngIf="item.isVegeterian" class="vegeterian badge" title="Vegeterian"><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                            <span class="price badge badge-secondary">{{item.price | currency:'CAD':'symbol-narrow'}}</span>
+                        </p>
+                    </div>
+                    <p class="text-muted mb-0">{{item.description}}</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+<ng-template #loading>
+    <span class="loading">Loading {{type}} menu data...</span>
+</ng-template>
